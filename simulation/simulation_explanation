@@ -1,2 +1,3 @@
 The main idea of simulation part belongs to Kim, J., Leahy, W. and Shlizerman, E., 2019. Neural interactome: Interactive simulation of a neuronal system. Frontiers in computational neuroscience, 13, p.8.
 In this secion, we stimulate two neurons which are responsible for forward crawling motion of c.elegans. These two neurons are PLML and PLMR sensory neurons.
+After stimulating the mentioned two neurons the output voltages will be saved as .npy files.
