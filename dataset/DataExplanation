@@ -1,1 +1,3 @@
 Output data includes the output voltages of all 279 neurons for different scenarions. 
+The "raw data" folder includes numpy files including data labeled "yes" and "no". It also has the neural dynamics of the first 200, 400, and 6oo moments.
+The "preprocessed data" folder includes .csv files including nuron names as the columns. 
