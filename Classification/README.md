@@ -1,6 +1,6 @@
 Now that we have the output voltages of all neurons and we created a dataset of two classes, lets classify neurons and extract the most important features. The classifiers and the approaches that are used are:
 
-SVM
+**SVM**
 A support vector machine (SVM) is a type of supervised machine learning algorithm used for classification or regression analysis. An SVM constructs a hyperplane in a high-dimensional space to separate data points of different classes. The hyperplane is chosen such that it maximizes the margin, which is the distance between the hyperplane and the nearest data points of each class.
 To find the most important features in an SVM classifier, one common method is to examine the weights assigned to each feature in the final SVM model. These weights indicate the contribution of each feature to the classification decision.
 In SVM classification, the weight assigned to each feature is determined by the distance between the hyperplane and the data points. Features with larger weights are more important in determining the classification decision.
