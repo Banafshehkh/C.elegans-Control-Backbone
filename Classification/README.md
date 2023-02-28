@@ -6,7 +6,7 @@ To find the **most important features in an SVM classifier**, one common method 
 In SVM classification, the weight assigned to each feature is determined by the distance between the hyperplane and the data points. Features with larger weights are more important in determining the classification decision.</br>
 To extract the most important features, you can rank the features by their weights and select the top-ranked features as the most important ones. This technique is often referred to as feature selection. There are also various other techniques for feature selection, such as recursive feature elimination, which iteratively removes the least important features from the model until the desired number of features is reached.
 
-![This is an image](https://scikit-learn.org/stable/_images/sphx_glr_plot_iris_svc_001.png)
+
 
 
 **_K-nearest Neighbour Classifier_** </br>
