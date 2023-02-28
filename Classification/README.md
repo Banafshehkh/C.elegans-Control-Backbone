@@ -1,14 +1,12 @@
 Now that we have the output voltages of all neurons and we created a dataset of two classes, lets classify neurons and extract the most important features. The classifiers and the approaches that are used are:
 
 **_SVM_** </br>
-
-![This is an image](https://scikit-learn.org/stable/_images/sphx_glr_plot_iris_svc_001.png)
-
-
 A support vector machine (SVM) is a type of supervised machine learning algorithm used for classification or regression analysis. An SVM constructs a hyperplane in a high-dimensional space to separate data points of different classes. The hyperplane is chosen such that it maximizes the margin, which is the distance between the hyperplane and the nearest data points of each class.</br>
 To find the **most important features in an SVM classifier**, one common method is to examine the weights assigned to each feature in the final SVM model. These weights indicate the contribution of each feature to the classification decision.
 In SVM classification, the weight assigned to each feature is determined by the distance between the hyperplane and the data points. Features with larger weights are more important in determining the classification decision.</br>
 To extract the most important features, you can rank the features by their weights and select the top-ranked features as the most important ones. This technique is often referred to as feature selection. There are also various other techniques for feature selection, such as recursive feature elimination, which iteratively removes the least important features from the model until the desired number of features is reached.
+
+![This is an image](https://scikit-learn.org/stable/_images/sphx_glr_plot_iris_svc_001.png)
 
 
 **_K-nearest Neighbour Classifier_** </br>
