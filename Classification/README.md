@@ -16,12 +16,17 @@ Correlation analysis measures the linear relationship between two variables, suc
 Mutual information analysis measures the amount of information that one variable provides about the other. Features that provide more information about the target variable are considered more important.</br>
 Once the most important features are identified, they can be used to train the k-NN classifier, and the classification performance can be evaluated. It's worth noting that k-NN classification is sensitive to the choice of the number of neighbors k, and the choice of distance metric used to measure the similarity between data points. Therefore, it's important to choose appropriate values for these hyperparameters to achieve optimal classification performance.</br>
 
+![This is an image](https://miro.medium.com/v2/resize:fit:640/format:webp/1*hncgU7vWLBsRvc8WJhxlkQ.png)
+
+
 **_Decision Tree_** </br>
 A decision tree classifier is a type of supervised machine learning algorithm that uses a tree-like model of decisions and their possible consequences to make predictions. Each internal node of the tree represents a decision based on a feature, and each leaf node represents a prediction.
 To find the **most important features in a decision tree classifier**, one common method is to use the feature importance score provided by the decision tree model. The feature importance score is a measure of how much each feature contributes to the accuracy of the model.</br>
 The feature importance score is typically calculated based on the decrease in impurity (Gini impurity or entropy) caused by each feature when used to split the data in the decision tree. Features that cause a large decrease in impurity are considered more important.
 Once the feature importance scores are calculated, they can be ranked to identify the most important features. The top-ranked features can then be used to train the decision tree classifier, and the classification performance can be evaluated.</br>
 It's worth noting that decision tree classifiers are prone to overfitting when the tree is too deep, and may not generalize well to new data. To mitigate overfitting, techniques such as pruning and setting a maximum depth for the tree can be used. Additionally, ensemble methods such as random forests, which combine multiple decision trees, can be used to improve the overall performance of the classifier.</br>
+
+
 
 **_Random Forest_** </br>
 A random forest classifier is a type of supervised machine learning algorithm that combines multiple decision trees to make a prediction. Random forests are an ensemble method that combines the predictions of multiple decision trees to improve the overall performance and reduce overfitting.
