@@ -14,3 +14,5 @@ Moving forward, we aim to identify the minimal network structure underlying the 
 
 
 <img src="./fig/neural_dynamics_of_all_neurons.png" width="650">
+
+<img src="./fig/newplot.png" width="650">
